@@ -96,3 +96,21 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,te
 .editorial-photo {overflow:hidden;}
 
 .hero {background-color:#203b35;}
+
+.story{margin-top:8px}
+.story-lead{font-size:18px;line-height:1.75;color:#31483f;margin:18px 0 8px}
+.story-section{margin-top:42px}
+.story-section h3{font-size:28px;margin-bottom:14px}
+.story-section p{color:#718274;font-size:15.5px;line-height:1.9;margin:0 0 14px}
+.story-figure{margin:22px 0 6px}
+.story-figure img{width:100%;height:440px;object-fit:cover}
+.story-figure figcaption{margin-top:10px;font-size:12px;letter-spacing:.04em;color:#8a978c}
+.amenity-list{display:flex;flex-wrap:wrap;gap:8px}
+.amenity-list span{background:#e6ebe3;color:#243b34;font-size:13px;padding:8px 12px}
+.story-facts{display:grid;grid-template-columns:1fr 1fr;gap:16px 28px;margin-top:4px}
+.story-facts div{border-top:1px solid #d8e0d6;padding-top:12px}
+.story-facts small{display:block;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#8a978c;margin-bottom:6px}
+.story-facts b{font-weight:600;font-size:15px;letter-spacing:-.02em}
+.story-closing{margin-top:36px;color:#31483f;font-size:15px;line-height:1.8}
+@media(min-width:761px){.enquiry-panel{position:sticky;top:108px}}
+@media(max-width:760px){.story-lead{font-size:16px}.story-figure img{height:240px}.story-facts{grid-template-columns:1fr}.story-section h3{font-size:24px}}
